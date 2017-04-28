@@ -1,7 +1,6 @@
-# Authentication [![Build Status](https://travis-ci.org/nareshkumar-h/course-mgmt-app.svg?branch=master)](https://travis-ci.org/nareshkumar-h/course-mgmt-app)
+# Authentication [![Build Status](https://travis-ci.org/nareshkumar-h/auth-web.svg?branch=master)](https://travis-ci.org/nareshkumar-h/auth-web)
 
-[![Coverage Status](https://coveralls.io/repos/github/nareshkumar-h/course-mgmt-app/badge.svg?branch=master)](https://coveralls.io/github/nareshkumar-h/course-mgmt-app?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/github/nareshkumar-h/auth-web/badge.svg?branch=master)](https://coveralls.io/github/nareshkumar-h/auth-web?branch=master)
 
 
 Added Code Coverage:
