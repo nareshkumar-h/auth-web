@@ -1,6 +1,8 @@
 language: java
 jdk: oraclejdk8
 services: mysql
+before_install:
+  - mysql -e 'CREATE DATABASE auth_db;'
 script: mvn clean install sonar:sonar -Dsonar.host.url=https://sonarqube.com -Dsonar.login=5e1d0fe1fe34394952a7eed5a6ec2b9e7074e338
 after_success:
   - mvn clean cobertura:cobertura coveralls:report
