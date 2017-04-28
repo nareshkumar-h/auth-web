@@ -10,4 +10,3 @@ CREATE TABLE users
  created_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-insert into users ( name,email,password) values ('Naresh', 'csenaresh@gmail.com', 'test@123');
