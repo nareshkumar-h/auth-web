@@ -5,6 +5,6 @@ before_install:
   - mysql -uroot -e 'DROP DATABASE IF EXISTS auth_db'
   - mysql -uroot -e 'CREATE DATABASE IF NOT EXISTS auth_db;'
   - echo "USE mysql;\nUPDATE user SET password=PASSWORD('root') WHERE user='root';\nFLUSH PRIVILEGES;\n" | mysql -u root
-script: mvn clean install sonar:sonar -Dsonar.host.url=https://sonarqube.com -Dsonar.login=5e1d0fe1fe34394952a7eed5a6ec2b9e7074e338
+script: mvn clean install sonar:sonar -Dsonar.host.url=https://sonarqube.com -Dsonar.login=7405a4b48761530bc57f61d13e37229c83216949
 after_success:
   - mvn clean cobertura:cobertura coveralls:report
